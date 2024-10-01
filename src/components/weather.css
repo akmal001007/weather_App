@@ -40,3 +40,23 @@
     color: #fff;
     font-size: 30px;
 }
+
+.weatherData {
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weatherData .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.weatherData img {
+    width: 50px;
+    mix-blend-mode: multiply;
+}
